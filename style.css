@@ -1,0 +1,186 @@
+
+
+
+
+#navBar{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main{
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+#left{
+width: 48%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#middle{
+  width: 4%;
+  height: 73%;
+  /*background-color: rgb(217, 183, 254);*/
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 94px;
+}
+
+#right{
+width: 48%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.leftPortr{
+  height: 729px;
+  width: 564px;
+}
+
+.rightPortr{
+  height: 729px;
+  width: 564px;
+}
+
+#bottom{
+
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content:  space-around;
+  align-items: center;
+}
+
+button,
+button:active,
+button:focus{
+  outline: none;
+}
+
+#timeBar{
+  width: 0px;
+  height: 10px;
+  background-color: green;
+
+}
+
+.goog {
+  width: 100%;
+  padding: 6px 10px;
+  -webkit-border-radius: 2px 2px;
+  border: solid 1px rgb(153, 153, 153);
+  background: rgb(119, 194, 255);
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(255,255,255,1);
+  line-height: 1;
+}
+
+#newGame{
+  width: 150px;
+}
+
+#check{
+  width: 150px;
+}
+
+
+#tryAgain{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+#picasso{
+  height: 350px;
+  width: 300px;
+  background-image: url(images/picasso.jpg);
+}
+
+
+#tryMiddle{
+  width: 300px;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#startScreen{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(207, 247, 230);
+  position: fixed;
+}
+
+#wrong{
+  width: 58px;
+  height: 30px;
+  background-color: rgb(167, 53, 11);
+  border-radius: 10px;
+  position: absolute;
+  margin: 250px auto;
+
+}
+
+#scoreDiv{
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 0.5px solid black;
+}
+
+#nextDiv{
+  height: 30px;
+  width: 58px;
+  background-color: rgb(97, 186, 7);
+  position: absolute;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#startScreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rules{
+  height: 600px;
+  width: 600px;
+  background-image: url(images/rules.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#cubismGame{
+  height: 600px;
+  width: 600px;
+  background-image: url(images/game_title.png);
+  background-position: center;
+  background-size: contain;
+}
